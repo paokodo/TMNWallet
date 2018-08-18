@@ -4,7 +4,6 @@ Demza Development
 TMNWallet
 Unofficial API for Truemoney Wallet Application
 
-(c) 2018, Demza Development. Licensed under MIT License.
 Source: https://github.com/DemzaHQ/TMNWallet
 Website: https://www.demzahq.com / https://demza.info
 */
