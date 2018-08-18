@@ -50,8 +50,8 @@ class TrueWallet {
 		return $this->WalletCurl($url, false, $header);
 	}
 
-	public function GetTransaction($token, $start, $end) {
-		$url = $this->api_gettran.$token.'/?startDate='.$start.'&endDate='.$end.'&limit=20&page=1&type=&action=';
+	public function GetTransaction($token, $start, $end, $limit = 50) {
+		$url = $this->api_gettran.$token.'/?startDate='.$start.'&endDate='.$end.'&limit='.$limit.'&page=1&type=&action=';
 		$header = array("Host: api-ewm.truemoney.com");
 		return $this->WalletCurl($url, false, $header);
 	}
