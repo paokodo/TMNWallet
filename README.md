@@ -1,6 +1,9 @@
 # DemzaHQ's TMNWallet
 An **unofficial** PHP API for TrueMoney Wallet Application.
 
+## Where I can get TMNWallet Class?!  
+Go to [releases page](https://github.com/DemzaHQ/TMNWallet/releases) and then download the **lastest** release, here you go!
+
 ## Which class is right for your project?
 - **src/TMNWallet.php**  
 A class for starting a new project.
