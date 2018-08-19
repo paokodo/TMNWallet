@@ -26,7 +26,6 @@ $tmn = new TMNWallet('your@email.com', 'y0ur$ecureP@ssw0rd');
 $token = json_decode($tmn->GetToken(), true)['data']['accessToken'];
 ```
   
-  
 ## Contributors
 - [d3mza](http://github.com/d3mza) (Developer & Maintainer)
 - [xIndy](https://github.com/exzajung) (Original Developer of **class.truewallet.php**)
