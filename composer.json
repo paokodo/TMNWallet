@@ -1,0 +1,21 @@
+{
+    "name": "demzahq/tmnwallet",
+    "description": "Unofficial PHP API for TrueMoney Wallet Application",
+    "keywords": ["true", "truemoney", "truemoneywallet", "truewallet", "api", "ewm"],
+    "homepage": "https://github.com/DemzaHQ/TMNWallet",
+    "authors": [
+        {
+            "name": "Maythiwat Chomchuen",
+            "homepage": "https://demza.info",
+            "email": "me@demza.info"
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/DemzaHQ/TMNWallet/tree/master"
+        "issues": "https://github.com/DemzaHQ/TMNWallet/issues",
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
