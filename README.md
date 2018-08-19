@@ -14,3 +14,7 @@ and need to use TMNWallet without changing code.
 $tmn = new TMNWallet('your@email.com', 'y0ur$ecureP@ssw0rd');
 $token = json_decode($tmn->GetToken(), true)['data']['accessToken'];
 ```
+
+## Contributors
+- [d3mza](http://github.com/lion328) (Developer & Maintainer)
+- [xIndy](https://github.com/exzajung) (Developer of **class.truewallet.php**)
