@@ -3,14 +3,12 @@ An **unofficial** PHP API for TrueMoney Wallet Application.
   
   
 ## Installing  
+- **Direct Download without Composer**  
+Go to [releases page](https://github.com/DemzaHQ/TMNWallet/releases) and then download the **lastest** release, here you go!  
 - **via Composer**  
 ```bash
 $ composer require demzahq/tmnwallet
 ```
-  
-- **Direct Download without Composer**  
-Go to [releases page](https://github.com/DemzaHQ/TMNWallet/releases) and then download the **lastest** release, here you go!
-  
   
 ## Which class is right for your project?
 - **src/TMNWallet.php**  
