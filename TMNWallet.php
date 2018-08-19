@@ -23,18 +23,14 @@ class TMNWallet {
     private $api_endpoint_getreport = '/profile/activities/';
 
     // ** Wallet App Info **
-    private $app_name = "wallet";
-    private $app_version = "4.0.1";
+    private $app_name = 'wallet';
+    private $app_version = '4.13.6';
 
     // ** Device Info **
-    private $device_os = "android";
-    private $device_id = "d520d0d12d0d48cb89394905168c6ed5";
-    private $device_type = "CPH1611";
-    private $device_version = "6.0.1";
-    
-    // ** Ad Tracking(?) **
-    private $deviceToken = "fUUbZJ9nwBk:APA91bHHgBBHhP9rqBEon_BtUNz3rLHQ-sYXnezA10PRSWQTwFpMvC9QiFzh-CqPsbWEd6x409ATC5RVsHAfk_-14cSqVdGzhn8iX2K_DiNHvpYfMMIzvFx_YWpYj5OaEzMyIPh3mgtx";
-    private $mobileTracking = "dJyFzn\/GIq7lrjv2RCsZbphpp0L\/W2+PsOTtOpg352mgWrt4XAEAAA==";
+    private $device_os = 'android';
+    private $device_id = 'f88a363c7839454c9b54f80890143cb0';
+    private $device_type = 'LDN-LX2';
+    private $device_version = '8.0.0';
 
     public function __construct($user, $pass, $type = 'email') {
         $this->username = $user;
@@ -53,8 +49,6 @@ class TMNWallet {
             "username"=> $this->username,
             "password"=> $this->passhash,
             "type"=> $this->login_type,
-            "deviceToken"=> $this->deviceToken,
-            "mobileTracking"=> $this->mobileTracking,
         );
         return $this->WalletCurl($url, json_encode($data), $header);
     }
