@@ -1,4 +1,5 @@
 # DemzaHQ's TMNWallet
+An **unofficial** PHP API for TrueMoney Wallet Application.
 
 ## Which class is right for your project?
 - **src/TMNWallet.php**  
