@@ -11,5 +11,5 @@ date_default_timezone_set('Asia/Bangkok');
 $wallet = new TMNWallet('your@email.com', 'y0ur_p@$$w0rd');
 $token = json_decode($wallet->GetToken(), true)['data']['accessToken'];
 
-echo $wallet->GetBanlance($token);
+echo $wallet->GetBalance($token);
 ?>
