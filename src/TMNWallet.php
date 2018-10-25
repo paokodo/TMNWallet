@@ -46,7 +46,13 @@ class TMNWallet {
         $header = array("Host: api-ewm.truemoney.com");
         return $this->WalletCurl($url, false, $header);
     }
-
+    
+    public function GetBalance($token) {
+        $url = $this->api_host.$this->api_endpoint_profile.'balance/'.$token;
+        $header = array("Host: api-ewm.truemoney.com");
+        return json_decode($this->WalletCurl($url, false, $header), true)['data']['currentBalance'];
+    }
+    
     public function GetTransaction($token, $start, $end, $limit = 50) {
         $url = $this->api_host.$this->api_endpoint_gettran.$token.'/?startDate='.$start.'&endDate='.$end.'&limit='.$limit.'&page=1&type=&action=';
         $header = array("Host: api-ewm.truemoney.com");

@@ -15,6 +15,9 @@ $ composer require demzahq/tmnwallet
 ```php
 $tmn = new TMNWallet('your@email.com', 'y0ur$ecureP@ssw0rd');
 $token = json_decode($tmn->GetToken(), true)['data']['accessToken'];
+
+$balance = $tmn->GetBalance();
+echo $balance;
 ```
   
 ## Contributors
