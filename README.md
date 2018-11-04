@@ -18,5 +18,5 @@ $token = json_decode($tmn->GetToken(), true)['data']['accessToken'];
 ```
   
 ## Contributors
-- [d3mza](http://github.com/d3mza) (Developer & Maintainer)
+- [Maythiwat](http://github.com/maythiwat) (Developer & Maintainer)
 - [xIndy](https://github.com/exzajung) (Original Developer of **class.truewallet.php**)
